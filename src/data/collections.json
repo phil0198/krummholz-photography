@@ -221,52 +221,45 @@
   },
   {
     "slug": "snowfields",
-    "title": "Snowfields",
-    "standfirst": "Snow, wind-scoured rock, and the long low light of the alpine winter.",
+    "title": "Flatirons",
+    "standfirst": "My first collection was done through the Flatirons and up on Flagstaff in Boulder a week after getting my camera. ",
     "cover": {
       "src": "/photos/snowfields/cover.jpg",
-      "alt": "Wind-scoured snow ridge under a deep blue winter sky, Mosquito Range."
+      "alt": "The Flatirons on a Friday afternoon"
     },
     "intro": [
-      "Winter above treeline empties the place out. The wildlife thins to what can survive it, the color drains to white and stone and a few hours of blue-gold light, and the wind writes and rewrites the snow into new shapes every night.",
-      "This is the season that tests whether you actually like it up there, or just like how it looks in July."
+      ""
     ],
     "images": [
       {
         "id": "sf-01",
         "src": "/photos/snowfields/01-wind-scoured-ridge.jpg",
-        "alt": "Wind-scoured snow ridge photographed at blue hour, Mosquito Range.",
-        "caption": "Wind-scoured ridge, blue hour — Mosquito Range."
+        "alt": "",
+        "caption": "Flatirons, just more moody"
       },
       {
         "id": "sf-02",
         "src": "/photos/snowfields/02-cornice-couloir.jpg",
-        "alt": "Snow cornice overhanging a steep couloir, Gore Range.",
-        "caption": "Cornice over the couloir — Gore Range."
+        "alt": "",
+        "caption": "Top of Flagstaff looking out forever"
       },
       {
         "id": "sf-03",
         "src": "/photos/snowfields/03-ptarmigan-tracks.jpg",
-        "alt": "White-tailed ptarmigan tracks crossing an open snowfield, Indian Peaks Wilderness.",
-        "caption": "Ptarmigan tracks, open snowfield — Indian Peaks Wilderness."
+        "alt": "",
+        "caption": "Driving down back into boulder and the trees are just turning green for the summer"
       },
       {
         "id": "sf-04",
         "src": "/photos/snowfields/04-alpenglow-thirteener.jpg",
-        "alt": "Alpenglow lighting a snow-covered thirteener summit, Sawatch Range.",
-        "caption": "Alpenglow on the thirteener — Sawatch Range."
+        "alt": "",
+        "caption": "Framed by the trees up high"
       },
       {
         "id": "sf-05",
         "src": "/photos/snowfields/05-rime-ice-krummholz.jpg",
-        "alt": "Rime ice coating stunted krummholz trees at treeline, San Juan Mountains.",
-        "caption": "Rime ice at treeline — San Juan Mountains."
-      },
-      {
-        "id": "sf-06",
-        "src": "/photos/snowfields/06-ski-tracks-couloir.jpg",
-        "alt": "A single set of ski tracks below a couloir in first light, Elk Mountains.",
-        "caption": "First tracks, first light — Elk Mountains."
+        "alt": "",
+        "caption": "Looking down at Boulder driving down from Flagstaff"
       }
     ]
   }
