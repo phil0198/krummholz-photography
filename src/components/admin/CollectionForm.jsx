@@ -184,9 +184,9 @@ export default function CollectionForm({ collection, onChange, onDelete }) {
               disabled={!!addProgress}
               className="hidden"
               onChange={(event) => {
-                const files = event.target.files;
+                const files = Array.from(event.target.files || []);
                 event.target.value = "";
-                if (files && files.length) handleAddPhotos(files);
+                if (files.length) handleAddPhotos(files);
               }}
             />
           </label>
