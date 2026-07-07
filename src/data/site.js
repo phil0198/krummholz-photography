@@ -1,12 +1,12 @@
 // Site-wide identity and navigation. Edit here to rename, re-link, or
 // update contact details across the whole site in one place.
 export const site = {
-  name: "Treeline",
+  name: "Krummholz",
   tagline: "Wildlife & landscape photography, Colorado high country.",
   photographer: "Phil",
   instagramHandle: "@realphilofthefuture",
   instagramUrl: "https://www.instagram.com/realphilofthefuture",
-  email: "hello@treelinephotography.com", // placeholder — swap for the real inbox
+  email: "hello@krummholzphotography.com", // placeholder — swap for the real inbox
   location: "Colorado, USA",
   // Full-bleed homepage hero. Drop the real file at public/photos/home/hero.jpg
   // (see src/data/collections.js for how the placeholder fallback works).

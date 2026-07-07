@@ -1,4 +1,4 @@
-# Treeline
+# Krummholz
 
 A photography portfolio for a Colorado alpine wildlife & landscape
 photographer. React + Vite, Tailwind CSS v4, react-router-dom, lucide-react.
