@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import Photo from "@/components/Photo";
 import { collections } from "@/data/collections";
+import { site } from "@/data/site";
 
 export default function Work() {
   return (
@@ -11,13 +12,16 @@ export default function Work() {
           Portfolio
         </p>
         <h1 className="mt-4 font-display text-4xl text-ink sm:text-5xl">
-          Above the Treeline
+          {site.workHeading}
         </h1>
-        <p className="mt-6 text-base leading-relaxed text-stone sm:text-lg">
-          A body of work built from time spent above eleven thousand feet —
-          the animals that live there, the ground they live on, and the
-          light that only happens at that altitude.
-        </p>
+        {site.workIntro.map((paragraph) => (
+          <p
+            key={paragraph.slice(0, 24)}
+            className="mt-6 text-base leading-relaxed text-stone sm:text-lg"
+          >
+            {paragraph}
+          </p>
+        ))}
       </header>
 
       <section className="mx-auto max-w-6xl px-6 pb-24 sm:pb-32 lg:px-12">

@@ -13,6 +13,7 @@ const TEXT_FIELDS = [
   { key: "instagramUrl", label: "Instagram URL" },
   { key: "email", label: "Contact email" },
   { key: "location", label: "Location" },
+  { key: "workHeading", label: "Work page heading" },
 ];
 
 const IMAGE_FIELDS = [
@@ -45,12 +46,12 @@ export default function SiteEditor() {
     setSite((prev) => ({ ...prev, [key]: value }));
   }
 
-  function setBioText(text) {
+  function setParagraphsField(key, text) {
     const paragraphs = text
       .split(/\n\s*\n/)
       .map((p) => p.trim())
       .filter(Boolean);
-    updateField("bio", paragraphs.length ? paragraphs : [""]);
+    updateField(key, paragraphs.length ? paragraphs : [""]);
   }
 
   async function handleImageUpload(key, path, file) {
@@ -104,8 +105,20 @@ export default function SiteEditor() {
         </span>
         <textarea
           value={site.bio.join("\n\n")}
-          onChange={(event) => setBioText(event.target.value)}
+          onChange={(event) => setParagraphsField("bio", event.target.value)}
           rows={8}
+          className={fieldClass}
+        />
+      </label>
+
+      <label className="flex flex-col gap-2">
+        <span className={fieldLabelClass}>
+          Work page intro (separate paragraphs with a blank line)
+        </span>
+        <textarea
+          value={site.workIntro.join("\n\n")}
+          onChange={(event) => setParagraphsField("workIntro", event.target.value)}
+          rows={4}
           className={fieldClass}
         />
       </label>
