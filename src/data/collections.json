@@ -8,8 +8,7 @@
       "alt": "Bull elk with antlers in velvet standing in open alpine tundra at first light, Rocky Mountain National Park."
     },
     "intro": [
-      "Above eleven thousand feet the air gets thin and the animals get careful. Everything up there has already survived a winter, and it shows in how little they waste — no motion without reason, no sound without cause.",
-      "Most of what follows is the product of sitting still for a long time: waiting on a ridge for elk to forget I'm there, or lying on scree until a pika finally comes out from under it. A few seconds of eye contact is the whole transaction."
+      "Above eleven thousand feet the air gets thin and the animals get careful. Everything up there has already survived a winter, and it shows in how little they waste"
     ],
     "images": [
       {
@@ -19,46 +18,28 @@
         "caption": "Bull elk in velvet, first light — Rocky Mountain National Park."
       },
       {
-        "id": "aw-02",
-        "src": "/photos/alpine-wildlife/02-cow-elk-calf.jpg",
-        "alt": "Cow elk and calf crossing a subalpine wildflower meadow, Mummy Range, Colorado.",
-        "caption": "Cow and calf crossing the meadow — Mummy Range."
-      },
-      {
         "id": "aw-03",
         "src": "/photos/alpine-wildlife/03-marmot-talus.jpg",
-        "alt": "Yellow-bellied marmot sunning itself on a talus slope, Mount Evans Wilderness.",
-        "caption": "Marmot, midday sun — Mount Evans Wilderness."
+        "alt": "Squirrel at Alberta Lakes",
+        "caption": "Squirrel on rock"
       },
       {
         "id": "aw-04",
         "src": "/photos/alpine-wildlife/04-pika-forage.jpg",
-        "alt": "American pika carrying a mouthful of wildflowers across a boulder field, Indian Peaks Wilderness.",
-        "caption": "Pika hauling forage — Indian Peaks Wilderness."
+        "alt": "American moose grazing at Sprague Lake",
+        "caption": "American moose"
       },
       {
         "id": "aw-05",
         "src": "/photos/alpine-wildlife/05-bighorn-ram.jpg",
-        "alt": "Bighorn sheep ram bedded down on a scree slope, Sawatch Range.",
-        "caption": "Bighorn ram, bedded on scree — Sawatch Range."
+        "alt": "Mule deer going home on Fall River Road",
+        "caption": "Mule deer"
       },
       {
         "id": "aw-06",
         "src": "/photos/alpine-wildlife/06-red-fox-snow.jpg",
-        "alt": "Red fox crossing a patch of fresh snow at treeline, Gunnison National Forest.",
-        "caption": "Fox at treeline, first snow — Gunnison National Forest."
-      },
-      {
-        "id": "aw-07",
-        "src": "/photos/alpine-wildlife/07-red-tailed-hawk.jpg",
-        "alt": "Red-tailed hawk riding a thermal above a high alpine ridgeline, San Juan Mountains.",
-        "caption": "Hawk on the thermals — San Juan Mountains."
-      },
-      {
-        "id": "aw-08",
-        "src": "/photos/alpine-wildlife/08-mountain-goats.jpg",
-        "alt": "Mountain goat nanny and kid walking a knife-edge ridge, Mount Massive.",
-        "caption": "Nanny and kid, knife-edge ridge — Mount Massive."
+        "alt": "Alpine Elk rummaging through the grass ",
+        "caption": "Elk in Golden Hour"
       }
     ]
   },
@@ -68,18 +49,17 @@
     "standfirst": "Ridgelines, alpine lakes, and the long light that only shows up above eleven thousand feet.",
     "cover": {
       "src": "/photos/high-country/cover.jpg",
-      "alt": "Alpine lake at sunrise reflecting a jagged ridgeline, Indian Peaks Wilderness."
+      "alt": "Rocky Mountain south ridgeline"
     },
     "intro": [
-      "These are the places I go to be quiet. Basins that hold snow into July, lakes so still they double the sky, ridgelines that put you above everything but the weather.",
-      "None of this is dramatic on purpose — it's just what's there before six in the morning, when the light is doing something it won't do again that day."
+      "These are the places I go to be quiet. Basins that hold snow into July, lakes so still they double the sky, ridgelines that put you above everything but the weather."
     ],
     "images": [
       {
         "id": "hc-01",
         "src": "/photos/high-country/01-alpine-lake-sunrise.jpg",
-        "alt": "Alpine lake mirroring a dusting of fresh snow on the surrounding peaks, Indian Peaks Wilderness.",
-        "caption": "Alpine lake, first snow — Indian Peaks Wilderness."
+        "alt": "Looking up through the aspens in the afternoon",
+        "caption": "Apsens"
       },
       {
         "id": "hc-02",
@@ -90,32 +70,14 @@
       {
         "id": "hc-03",
         "src": "/photos/high-country/03-wildflowers-scree.jpg",
-        "alt": "Alpine wildflowers growing among scree below a thirteener summit, San Juan Mountains.",
-        "caption": "Wildflowers below the scree line — San Juan Mountains."
-      },
-      {
-        "id": "hc-04",
-        "src": "/photos/high-country/04-fog-basin.jpg",
-        "alt": "Morning fog lifting off a high alpine basin, Sawatch Range.",
-        "caption": "Fog lifting off the basin — Sawatch Range."
-      },
-      {
-        "id": "hc-05",
-        "src": "/photos/high-country/05-cirque-headwall.jpg",
-        "alt": "Late afternoon light on a glacial cirque headwall, Gore Range.",
-        "caption": "Late light on the headwall — Gore Range."
-      },
-      {
-        "id": "hc-06",
-        "src": "/photos/high-country/06-krummholz-treeline.jpg",
-        "alt": "Wind-bent krummholz spruce clinging to a slope at treeline, Mosquito Range.",
-        "caption": "Krummholz at treeline — Mosquito Range."
+        "alt": "Rocky Mountain ridgeline from the car",
+        "caption": "Views from the passenger seat"
       },
       {
         "id": "hc-07",
         "src": "/photos/high-country/07-storm-clearing-summit.jpg",
-        "alt": "Storm clouds clearing over a fourteener summit ridge, Elk Mountains.",
-        "caption": "Storm clearing over the ridge — Elk Mountains."
+        "alt": "Looking through the gates",
+        "caption": "Golden light shining through the visitor center gates"
       }
     ]
   },
