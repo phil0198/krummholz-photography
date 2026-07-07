@@ -45,6 +45,14 @@ export default function SiteEditor() {
     setSite((prev) => ({ ...prev, [key]: value }));
   }
 
+  function setBioText(text) {
+    const paragraphs = text
+      .split(/\n\s*\n/)
+      .map((p) => p.trim())
+      .filter(Boolean);
+    updateField("bio", paragraphs.length ? paragraphs : [""]);
+  }
+
   async function handleImageUpload(key, path, file) {
     setUploadingKey(key);
     setError("");
@@ -89,6 +97,18 @@ export default function SiteEditor() {
           </label>
         ))}
       </div>
+
+      <label className="flex flex-col gap-2">
+        <span className={fieldLabelClass}>
+          About page bio (separate paragraphs with a blank line)
+        </span>
+        <textarea
+          value={site.bio.join("\n\n")}
+          onChange={(event) => setBioText(event.target.value)}
+          rows={8}
+          className={fieldClass}
+        />
+      </label>
 
       {IMAGE_FIELDS.map(({ key, label, path }) => (
         <div key={key} className="flex flex-col gap-3 border-t border-ink-3 pt-6">

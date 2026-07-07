@@ -22,22 +22,9 @@ export default function About() {
           </h1>
 
           <div className="mt-8 flex flex-col gap-5 text-base leading-relaxed text-ink/90 sm:text-lg">
-            <p>
-              I live in Colorado and spend most of my time above eleven
-              thousand feet, usually before the sun is fully up. This work
-              started as a way to justify the early mornings and has turned
-              into most of what I care about photographing — elk, marmots,
-              pikas, foxes, and the ground they all share.
-            </p>
-            <p>
-              I don&rsquo;t bait, call, or push anything for a photograph.
-              Almost everything here is the result of getting somewhere
-              early, staying longer than seems reasonable, and letting an
-              animal decide the distance. The landscapes follow the same
-              rule — I go back to the same basins and ridgelines often
-              enough to know what the light is going to do.
-            </p>
-            <p>I post more regularly, and less carefully, on Instagram.</p>
+            {site.bio.map((paragraph) => (
+              <p key={paragraph.slice(0, 24)}>{paragraph}</p>
+            ))}
           </div>
 
           <a

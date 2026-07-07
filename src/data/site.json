@@ -6,6 +6,11 @@
   "instagramUrl": "https://www.instagram.com/realphilofthefuture",
   "email": "phillipmedlinofficial@gmail.com",
   "location": "Colorado, USA",
+  "bio": [
+    "I live in Colorado and spend most of my time above eleven thousand feet, usually before the sun is fully up. This work started as a way to justify the early mornings and has turned into most of what I care about photographing — elk, marmots, pikas, foxes, and the ground they all share.",
+    "I don't bait, call, or push anything for a photograph. Almost everything here is the result of getting somewhere early, staying longer than seems reasonable, and letting an animal decide the distance. The landscapes follow the same rule — I go back to the same basins and ridgelines often enough to know what the light is going to do.",
+    "I post more regularly, and less carefully, on Instagram."
+  ],
   "heroImage": {
     "src": "/photos/home/hero.jpg",
     "alt": "A small herd of elk grazing in an open alpine meadow at sunrise, snow-dusted peaks in the distance, Rocky Mountain National Park."
