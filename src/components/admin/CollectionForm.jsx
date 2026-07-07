@@ -8,6 +8,7 @@ import { fieldClass, fieldLabelClass } from "@/components/admin/fieldStyles";
 
 export default function CollectionForm({ collection, onChange, onDelete }) {
   const [uploadingCover, setUploadingCover] = useState(false);
+  const [addProgress, setAddProgress] = useState(null); // { done, total } | null
   const [error, setError] = useState("");
 
   function setField(key, value) {
@@ -61,12 +62,30 @@ export default function CollectionForm({ collection, onChange, onDelete }) {
     );
   }
 
-  function addImage() {
-    const id = `img-${Date.now()}`;
-    setField("images", [
-      ...collection.images,
-      { id, src: `/photos/${collection.slug}/${id}.jpg`, alt: "", caption: "" },
-    ]);
+  async function handleAddPhotos(fileList) {
+    const files = Array.from(fileList);
+    if (!files.length) return;
+    setError("");
+    setAddProgress({ done: 0, total: files.length });
+
+    const newImages = [];
+    for (const file of files) {
+      const id = `img-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
+      const path = `photos/${collection.slug}/${id}.jpg`;
+      try {
+        const dataUrl = await resizeImageFile(file);
+        await adminApi.uploadImage(path, dataUrl);
+        newImages.push({ id, src: `/${path}`, alt: "", caption: "" });
+      } catch (err) {
+        setError(err.message);
+      }
+      setAddProgress((prev) => (prev ? { ...prev, done: prev.done + 1 } : prev));
+    }
+
+    if (newImages.length) {
+      setField("images", [...collection.images, ...newImages]);
+    }
+    setAddProgress(null);
   }
 
   return (
@@ -142,14 +161,35 @@ export default function CollectionForm({ collection, onChange, onDelete }) {
       <div className="flex flex-col gap-4">
         <div className="flex items-center justify-between">
           <span className={fieldLabelClass}>Gallery images ({collection.images.length})</span>
-          <button
-            type="button"
-            onClick={addImage}
-            className="flex items-center gap-1.5 text-xs uppercase tracking-[0.15em] text-smoke hover:text-bone"
+          <label
+            className={`flex items-center gap-1.5 text-xs uppercase tracking-[0.15em] text-smoke hover:text-bone ${
+              addProgress ? "opacity-60" : "cursor-pointer"
+            }`}
           >
-            <Plus className="h-3.5 w-3.5" aria-hidden="true" />
-            Add image
-          </button>
+            {addProgress ? (
+              <>
+                <Loader2 className="h-3.5 w-3.5 animate-spin" aria-hidden="true" />
+                Uploading {addProgress.done}/{addProgress.total}…
+              </>
+            ) : (
+              <>
+                <Plus className="h-3.5 w-3.5" aria-hidden="true" />
+                Add photos
+              </>
+            )}
+            <input
+              type="file"
+              accept="image/*"
+              multiple
+              disabled={!!addProgress}
+              className="hidden"
+              onChange={(event) => {
+                const files = event.target.files;
+                event.target.value = "";
+                if (files && files.length) handleAddPhotos(files);
+              }}
+            />
+          </label>
         </div>
 
         {collection.images.map((image, index) => (
