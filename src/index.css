@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/*
+ * THEME TOKENS
+ * ------------
+ * Everything below is the single place to retune the site's look.
+ * Tailwind v4 reads custom properties inside `@theme` and turns them
+ * into utility classes automatically, e.g.:
+ *   --color-ink    -> bg-ink, text-ink, border-ink, ...
+ *   --font-display -> font-display
+ *
+ * Palette: a cold, muted Colorado high-country mood — near-black,
+ * bone off-white, and one restrained accent (a desaturated glacier
+ * blue-grey). Nothing saturated; the photographs carry the color.
+ *
+ * Type: Fraunces (editorial serif) for display/headings, Inter
+ * (neutral sans) for body text and UI. Loaded via Google Fonts in
+ * index.html.
+ */
+@theme {
+  /* Neutrals */
+  --color-ink: #14161a; /* near-black, primary dark background / text */
+  --color-ink-2: #1f2226; /* elevated dark surface: footer, overlays */
+  --color-ink-3: #2b2f34; /* hairlines & borders on dark surfaces */
+
+  --color-bone: #efeae1; /* primary light background */
+  --color-bone-2: #e4ddd0; /* card / section surface on bone */
+  --color-bone-3: #d8cfbd; /* hairlines & borders on bone surfaces */
+
+  --color-stone: #8b877c; /* muted secondary text on bone */
+  --color-smoke: #9a9d9f; /* muted secondary text on ink */
+
+  /* Accent: desaturated alpine glacier blue-grey */
+  --color-accent: #5e7688;
+  --color-accent-soft: #8ca3b0;
+
+  /* Type */
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Motion */
+  --ease-quiet: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bone text-ink font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display font-normal tracking-tight;
+  }
+
+  a {
+    @apply underline-offset-4;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-bone);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
