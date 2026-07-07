@@ -1,4 +1,4 @@
-import { AtSign, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { site } from "@/data/site";
 
 export default function Contact() {
@@ -27,7 +27,6 @@ export default function Contact() {
           rel="noreferrer"
           className="flex flex-1 items-center justify-center gap-3 border border-bone-3 bg-bone-2/60 px-6 py-6 font-sans text-sm uppercase tracking-[0.15em] text-ink no-underline transition-colors hover:bg-bone-2"
         >
-          <AtSign className="h-4 w-4" aria-hidden="true" />
           {site.instagramHandle}
         </a>
       </div>

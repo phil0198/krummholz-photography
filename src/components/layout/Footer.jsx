@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { AtSign, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { navLinks, site } from "@/data/site";
 
 export default function Footer() {
@@ -39,7 +39,6 @@ export default function Footer() {
             rel="noreferrer"
             className="flex w-fit items-center gap-2 text-sm text-bone/80 no-underline hover:text-bone"
           >
-            <AtSign className="h-4 w-4" aria-hidden="true" />
             {site.instagramHandle}
           </a>
         </div>

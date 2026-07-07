@@ -1,4 +1,3 @@
-import { AtSign } from "lucide-react";
 import Photo from "@/components/Photo";
 import { site } from "@/data/site";
 
@@ -33,7 +32,6 @@ export default function About() {
             rel="noreferrer"
             className="mt-8 inline-flex items-center gap-2 text-sm uppercase tracking-[0.15em] text-ink no-underline hover:text-accent"
           >
-            <AtSign className="h-4 w-4" aria-hidden="true" />
             {site.instagramHandle}
           </a>
         </div>
