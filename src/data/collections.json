@@ -5,7 +5,7 @@
     "standfirst": "Elk, marmots, pikas, and the other residents of the tundra — met on their own patient terms.",
     "cover": {
       "src": "/photos/alpine-wildlife/cover.jpg",
-      "alt": "Bull elk with antlers in velvet standing in open alpine tundra at first light, Rocky Mountain National Park."
+      "alt": "Bull elk with antlers in velvet standing in open alpine tundra at first light, at the Rocky Mountain National Park visitor center. "
     },
     "intro": [
       "Above eleven thousand feet the air gets thin and the animals get careful. Everything up there has already survived a winter, and it shows in how little they waste"
@@ -14,32 +14,32 @@
       {
         "id": "aw-01",
         "src": "/photos/alpine-wildlife/01-bull-elk-velvet.jpg",
-        "alt": "Bull elk with antlers still in velvet standing in golden morning light, Rocky Mountain National Park.",
-        "caption": "Bull elk in velvet, first light — Rocky Mountain National Park."
+        "alt": "",
+        "caption": "Bull elk with antlers crossing the road at the highest national park visitor center in the US"
       },
       {
         "id": "aw-03",
         "src": "/photos/alpine-wildlife/03-marmot-talus.jpg",
-        "alt": "Squirrel at Alberta Lakes",
-        "caption": "Squirrel on rock"
+        "alt": "",
+        "caption": "Squirrel enjoying life on a rock at Alberta Falls in Rocky Mountain National Park"
       },
       {
         "id": "aw-04",
         "src": "/photos/alpine-wildlife/04-pika-forage.jpg",
-        "alt": "American moose grazing at Sprague Lake",
-        "caption": "American moose"
+        "alt": "",
+        "caption": "An American moose grazing at Sprague Lake"
       },
       {
         "id": "aw-05",
         "src": "/photos/alpine-wildlife/05-bighorn-ram.jpg",
-        "alt": "Mule deer going home on Fall River Road",
-        "caption": "Mule deer"
+        "alt": "",
+        "caption": "Mule deer going home on Fall River Road"
       },
       {
         "id": "aw-06",
         "src": "/photos/alpine-wildlife/06-red-fox-snow.jpg",
-        "alt": "Alpine Elk rummaging through the grass ",
-        "caption": "Elk in Golden Hour"
+        "alt": "",
+        "caption": "Alpine Elk rummaging through the grass during golden hour."
       }
     ]
   },
