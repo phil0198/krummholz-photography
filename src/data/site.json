@@ -1,0 +1,17 @@
+{
+  "name": "Krummholz",
+  "tagline": "Wildlife & landscape photography, Colorado high country.",
+  "photographer": "Phil",
+  "instagramHandle": "@realphilofthefuture",
+  "instagramUrl": "https://www.instagram.com/realphilofthefuture",
+  "email": "hello@krummholzphotography.com",
+  "location": "Colorado, USA",
+  "heroImage": {
+    "src": "/photos/home/hero.jpg",
+    "alt": "A small herd of elk grazing in an open alpine meadow at sunrise, snow-dusted peaks in the distance, Rocky Mountain National Park."
+  },
+  "portrait": {
+    "src": "/photos/home/portrait.jpg",
+    "alt": "Portrait of the photographer on a scree slope above treeline, camera in hand, overcast light."
+  }
+}
