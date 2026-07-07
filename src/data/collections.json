@@ -49,7 +49,7 @@
     "standfirst": "Ridgelines, alpine lakes, and the long light that only shows up above eleven thousand feet.",
     "cover": {
       "src": "/photos/high-country/cover.jpg",
-      "alt": "Rocky Mountain south ridgeline"
+      "alt": "Rocky Mountain South Ridgeline"
     },
     "intro": [
       "These are the places I go to be quiet. Basins that hold snow into July, lakes so still they double the sky, ridgelines that put you above everything but the weather."
@@ -58,26 +58,26 @@
       {
         "id": "hc-01",
         "src": "/photos/high-country/01-alpine-lake-sunrise.jpg",
-        "alt": "Looking up through the aspens in the afternoon",
-        "caption": "Apsens"
+        "alt": "",
+        "caption": "Looking up through the aspens in the afternoon"
       },
       {
         "id": "hc-02",
         "src": "/photos/high-country/02-tundra-ridgeline.jpg",
-        "alt": "Tundra ridgeline lit by sunrise along Trail Ridge Road, Rocky Mountain National Park.",
-        "caption": "Tundra ridgeline, sunrise — Trail Ridge Road."
+        "alt": "",
+        "caption": "Tundra ridgeline lit by sunset along Trail Ridge Road, Rocky Mountain National Park."
       },
       {
         "id": "hc-03",
         "src": "/photos/high-country/03-wildflowers-scree.jpg",
-        "alt": "Rocky Mountain ridgeline from the car",
-        "caption": "Views from the passenger seat"
+        "alt": "",
+        "caption": "Rocky Mountain ridgeline from the car"
       },
       {
         "id": "hc-07",
         "src": "/photos/high-country/07-storm-clearing-summit.jpg",
-        "alt": "Looking through the gates",
-        "caption": "Golden light shining through the visitor center gates"
+        "alt": "",
+        "caption": "Golden light shining through the Rocky Mountain Visitor Center gates"
       }
     ]
   },
