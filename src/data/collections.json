@@ -292,5 +292,121 @@
         "caption": "Flatirons in gold"
       }
     ]
+  },
+  {
+    "slug": "fall-foliage",
+    "title": "Fall Foliage",
+    "standfirst": "Aspen gold above Nederland, where the Peak to Peak turns for a few short weeks each fall.",
+    "cover": {
+      "src": "/photos/fall-foliage/cover.jpg",
+      "alt": ""
+    },
+    "intro": [
+      ""
+    ],
+    "images": [
+      {
+        "id": "img-1791218270076-9aqml",
+        "src": "/photos/fall-foliage/img-1791218270076-9aqml.jpg",
+        "alt": "",
+        "caption": "Gravel road beside a weathered buck-and-rail fence, with golden aspens and young pines under a clear blue sky."
+      },
+      {
+        "id": "img-1791218274035-sxa42",
+        "src": "/photos/fall-foliage/img-1791218274035-sxa42.jpg",
+        "alt": "",
+        "caption": "Dirt road through a tunnel of golden aspens, leading toward a forested mountain with ski runs."
+      },
+      {
+        "id": "img-1791218276865-yk58v",
+        "src": "/photos/fall-foliage/img-1791218276865-yk58v.jpg",
+        "alt": "",
+        "caption": "Looking up through golden aspen branches against a deep blue sky with streaks of cloud."
+      },
+      {
+        "id": "img-1791218279283-2sqfl",
+        "src": "/photos/fall-foliage/img-1791218279283-2sqfl.jpg",
+        "alt": "",
+        "caption": "Bright yellow aspen grove among dark pines, framed by out-of-focus pine branches, under a puffy white cloud."
+      },
+      {
+        "id": "img-1791218281618-fzevv",
+        "src": "/photos/fall-foliage/img-1791218281618-fzevv.jpg",
+        "alt": "",
+        "caption": "Band of golden aspens between tall evergreens, with white clouds in a vivid blue sky."
+      },
+      {
+        "id": "img-1791218284218-igr8a",
+        "src": "/photos/fall-foliage/img-1791218284218-igr8a.jpg",
+        "alt": "",
+        "caption": "Gravel road curving between golden aspens and pines toward a broad, bare mountain summit."
+      },
+      {
+        "id": "img-1791218287095-ww7e9",
+        "src": "/photos/fall-foliage/img-1791218287095-ww7e9.jpg",
+        "alt": "",
+        "caption": "White aspen trunks with dark knots beside a dirt road, with yellow and green leaves and a ski hill in the distance."
+      },
+      {
+        "id": "img-1791218289858-e02ef",
+        "src": "/photos/fall-foliage/img-1791218289858-e02ef.jpg",
+        "alt": "",
+        "caption": "Sunlit dirt road winding between aspens turning from green to gold, toward a distant ski mountain."
+      },
+      {
+        "id": "img-1791218292317-s1z3q",
+        "src": "/photos/fall-foliage/img-1791218292317-s1z3q.jpg",
+        "alt": "",
+        "caption": "Wide hillside of golden aspens scattered among evergreens, with distant ridgelines under a deep blue sky."
+      },
+      {
+        "id": "img-1791218294804-s7skx",
+        "src": "/photos/fall-foliage/img-1791218294804-s7skx.jpg",
+        "alt": "",
+        "caption": "Rocky slope covered in yellow and orange aspens, with forested hills and a high bare peak beyond."
+      },
+      {
+        "id": "img-1791218297232-duzq1",
+        "src": "/photos/fall-foliage/img-1791218297232-duzq1.jpg",
+        "alt": "",
+        "caption": "Trail post marked \"Hobbit\" among young pines, with golden aspens and a craggy mountain in the background."
+      },
+      {
+        "id": "img-1791218299383-43l94",
+        "src": "/photos/fall-foliage/img-1791218299383-43l94.jpg",
+        "alt": "",
+        "caption": "Close-up of a \"Hobbit\" trail sign, with blurred pines, yellow aspens, and mountains behind."
+      },
+      {
+        "id": "img-1791218301736-ktql8",
+        "src": "/photos/fall-foliage/img-1791218301736-ktql8.jpg",
+        "alt": "",
+        "caption": "Golden aspen canopy against a deep blue sky with scattered white clouds."
+      },
+      {
+        "id": "img-1791218304377-lxx36",
+        "src": "/photos/fall-foliage/img-1791218304377-lxx36.jpg",
+        "alt": "",
+        "caption": "Narrow dirt singletrack winding through young lodgepole pines and boulders under wispy clouds."
+      },
+      {
+        "id": "img-1791218306943-ktm07",
+        "src": "/photos/fall-foliage/img-1791218306943-ktm07.jpg",
+        "alt": "",
+        "caption": "\"Hobbit\" trail sign on a wooden post at a trailhead, with pine forest, aspens, and mountains under a blue sky."
+      },
+      {
+        "id": "img-1791218309482-dudgg",
+        "src": "/photos/fall-foliage/img-1791218309482-dudgg.jpg",
+        "alt": "",
+        "caption": "Looking up at golden aspen crowns against a saturated blue sky."
+      },
+      {
+        "id": "img-1791218312388-pwzn8",
+        "src": "/photos/fall-foliage/img-1791218312388-pwzn8.jpg",
+        "alt": "",
+        "caption": "Granite canyon walls dotted with pines beneath a sweeping white cloud in a blue sky."
+      }
+    ]
   }
 ]
