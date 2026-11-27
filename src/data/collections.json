@@ -412,13 +412,15 @@
   {
     "slug": "sedona",
     "title": "Sedona",
-    "standfirst": "",
+    "standfirst": "Red rock, high desert light, and a few days spent looking up.",
     "cover": {
       "src": "/photos/sedona/cover.jpg",
-      "alt": ""
+      "alt": "Tall saguaro cactus with many upturned arms in a desert of shrubs and red gravel, with a second saguaro in the background."
     },
     "intro": [
-      ""
+      "Sedona sits at the bottom of the Mogollon Rim, where millions of years of wind and water have carved the sandstone into buttes, spires and walls that seem to change color every hour. I went with no plan beyond walking the trails and paying attention to the light: hard and bright at midday, warm in the late afternoon, and fading to blue once the sun drops behind the ridges.",
+      "This set moves from wide views of the buttes to the smaller things that caught my eye along the way: weathered trail signs, painted tile, terracotta lattice, and the scarred, spined skin of the saguaros farther south. The ground here is red, the sky is huge, and you can't help but look up.",
+      "Some of these lines may not match your trip. \"No plan\" and \"farther south\" are guesses about how you traveled, so change them if they're wrong. The second line of the standfirst assumes the alternates are for a separate line; pick whichever one fits."
     ],
     "images": [
       {
